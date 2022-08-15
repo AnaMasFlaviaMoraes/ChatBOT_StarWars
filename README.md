@@ -1,9 +1,12 @@
 ## Desafio Proposto
 
-**Bot-1:** Crie um bot Rasa em Português que use um formulário para pegar o nome e uma preferência do usuário para acessar a API utilizada nas sprint 1 e/ou sprint 2. O bot questiona o usuário, cujas respostas irão para slots em um form. A consulta à API deverá ocorrer em uma action e retornar o dado em texto e/ou imagem ao usuário. Dicas de forms: https://learning.rasa.com/rasa-forms-3/ e código em https://github.com/RasaHQ/rasa-3.x-form-examples
-**Bot-2:** Agregue o banco de dados ao bot-1, como feito na sprint 2 e na sprint 3 com MongoDB, para armazenamento do histórico de consultas. O bot deve estar apto a dizer se a consulta já foi feita ou não e dar a resposta sem consulta à API.
-**Bot-3:** Coloque o bot-2 em docker, utilizando docker-compose. Dica: https://rasa.com/docs/rasa/docker/deploying-in-docker-compose/
-**Bot-4:** Coloque o bot-3 em kubernetes no Okteto. Dica: https://learning.rasa.com/deployment/kubernetes-commands/
+ - **Bot-1:** Crie um bot Rasa em Português que use um formulário para pegar o nome e uma preferência do usuário para acessar a API utilizada nas sprint 1 e/ou sprint 2. O bot questiona o usuário, cujas respostas irão para slots em um form. A consulta à API deverá ocorrer em uma action e retornar o dado em texto e/ou imagem ao usuário. Dicas de forms: https://learning.rasa.com/rasa-forms-3/ e código em https://github.com/RasaHQ/rasa-3.x-form-examples
+
+ - **Bot-2:** Agregue o banco de dados ao bot-1, como feito na sprint 2 e na sprint 3 com MongoDB, para armazenamento do histórico de consultas. O bot deve estar apto a dizer se a consulta já foi feita ou não e dar a resposta sem consulta à API.
+
+ - **Bot-3:** Coloque o bot-2 em docker, utilizando docker-compose. Dica: https://rasa.com/docs/rasa/docker/deploying-in-docker-compose/
+
+ - **Bot-4:** Coloque o bot-3 em kubernetes no Okteto. Dica: https://learning.rasa.com/deployment/kubernetes-commands/
 
 # API Utilizada:
 
